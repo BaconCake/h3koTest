@@ -1,5 +1,5 @@
 ﻿<Properties StartupConfiguration="{C2E28993-A67B-46FF-9A0C-230F4366969A}|Default">
-  <MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workbench ActiveDocument="hekoTest-SR Status">
     <Files>
       <File FileName="hekoTest-SR Status" />
     </Files>
@@ -10,7 +10,5 @@
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.ItemProperties.hekoTest-SR.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.7098FAC0-6540-499B-88FC-C4EF6F176B0B">
-    <MonoDevelop.MacDev.AppleDevelopmentTeam />
-  </MonoDevelop.Ide.ItemProperties.hekoTest-SR.iOS>
+  <MonoDevelop.Ide.ItemProperties.hekoTest-SR.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget." />
 </Properties>
