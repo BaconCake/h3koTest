@@ -2,5 +2,10 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="1" android:versionName="1.0" package="com.companyname.hekoTest_SR">
 	<uses-sdk android:minSdkVersion="15" />
 	<uses-permission android:name="android.permission.CALL_PHONE" />
+	<uses-permission android:name="android.permission.MEDIA_CONTENT_CONTROL" />
+	<uses-permission android:name="android.permission.CAMERA" />
+	<uses-permission android:name="android.permission.INTERNET" />
+	<uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+	<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
 	<application android:label="hekoTest-SR"></application>
 </manifest>

@@ -54,5 +54,10 @@ namespace hekoTestSR
         {
             await Navigation.PushAsync(new SliderPage());
         }
+
+        async void OnShowImageOptions(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new ImagePage());
+        }
     }
 }
