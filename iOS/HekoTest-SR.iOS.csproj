@@ -98,7 +98,7 @@
   <ItemGroup>
     <ProjectReference Include="..\hekoTest-SR\hekoTest-SR.csproj">
       <Project>{20E7DBE3-8CD2-467E-B955-272CA9BBF7BA}</Project>
-      <Name>hekoTest-SR</Name>
+      <Name>HekoTest-SR</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
@@ -119,6 +119,7 @@
   <ItemGroup>
     <Compile Include="Main.cs" />
     <Compile Include="AppDelegate.cs" />
+    <Compile Include="PhoneDialer.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
   <Import Project="..\packages\Xamarin.Forms.2.4.0.280\build\netstandard1.0\Xamarin.Forms.targets" Condition="Exists('..\packages\Xamarin.Forms.2.4.0.280\build\netstandard1.0\Xamarin.Forms.targets')" />

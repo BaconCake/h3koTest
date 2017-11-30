@@ -5,7 +5,7 @@ using System.Linq;
 using Foundation;
 using UIKit;
 
-namespace hekoTestSR.iOS
+namespace HekoTestSR.iOS
 {
     public class Application
     {

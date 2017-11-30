@@ -1,11 +1,11 @@
 
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "hekoTest-SR", "hekoTest-SR\hekoTest-SR.csproj", "{20E7DBE3-8CD2-467E-B955-272CA9BBF7BA}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HekoTest-SR", "hekoTest-SR\hekoTest-SR.csproj", "{20E7DBE3-8CD2-467E-B955-272CA9BBF7BA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "hekoTest-SR.iOS", "iOS\hekoTest-SR.iOS.csproj", "{C2E28993-A67B-46FF-9A0C-230F4366969A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HekoTest-SR.iOS", "iOS\hekoTest-SR.iOS.csproj", "{C2E28993-A67B-46FF-9A0C-230F4366969A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "hekoTest-SR.Droid", "Droid\hekoTest-SR.Droid.csproj", "{FFED043B-A8FD-48C8-9718-163602005118}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HekoTest-SR.Droid", "Droid\hekoTest-SR.Droid.csproj", "{FFED043B-A8FD-48C8-9718-163602005118}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -1,6 +1,6 @@
 ﻿using Xamarin.Forms;
 
-namespace hekoTestSR
+namespace HekoTestSR
 {
     public partial class hekoTest_SRPage : ContentPage
     {

@@ -1,6 +1,6 @@
 ﻿using Xamarin.Forms;
 
-namespace hekoTestSR
+namespace HekoTestSR
 {
     public partial class App : Application
     {
@@ -8,7 +8,7 @@ namespace hekoTestSR
         {
             InitializeComponent();
 
-            MainPage = new hekoTest_SRPage();
+            MainPage = new MainPage();
         }
 
         protected override void OnStart()
