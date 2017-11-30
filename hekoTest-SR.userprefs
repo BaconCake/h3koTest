@@ -1,23 +1,19 @@
-﻿<Properties StartupConfiguration="{FFED043B-A8FD-48C8-9718-163602005118}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="hekoTest-SR Status">
+﻿<Properties StartupConfiguration="{C2E28993-A67B-46FF-9A0C-230F4366969A}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="trunk Status">
     <Files>
-      <File FileName="hekoTest-SR/PhoneTranslator.cs" Line="38" Column="53" />
-      <File FileName="hekoTest-SR/IDialer.cs" Line="7" Column="2" />
-      <File FileName="iOS/PhoneDialer.cs" Line="15" Column="10" />
-      <File FileName="Droid/PhoneDialer.cs" Line="3" Column="1" />
-      <File FileName="hekoTest-SR/MainPage.xaml.cs" Line="36" Column="27" />
-      <File FileName="Droid/MainActivity.cs" Line="1" Column="1" />
-      <File FileName="hekoTest-SR/hekoTest-SRPage.xaml" Line="8" Column="1" />
-      <File FileName="hekoTest-SR/hekoTest-SRPage.xaml.cs" Line="8" Column="10" />
-      <File FileName="hekoTest-SR Status" />
+      <File FileName="hekoTest-SR/MainPage.xaml" Line="17" Column="27" />
+      <File FileName="hekoTest-SR/MainPage.xaml.cs" Line="45" Column="14" />
+      <File FileName="trunk Status" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.hekoTest-SR.Droid PreferredExecutionTarget="Android.Nexus_6_Android_6.0" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.ItemProperties.HekoTest-SR.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.E1909656-EC1D-4134-AF16-24854ADB203E" />
+  <MonoDevelop.Ide.ItemProperties.hekoTest-SR.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.3CA4EEA7-94BE-4631-BB37-3CA2198B40FE" />
   <MonoDevelop.Ide.ItemProperties.HekoTest-SR.Droid PreferredExecutionTarget="Android.Nexus_6_Android_6.0" />
 </Properties>

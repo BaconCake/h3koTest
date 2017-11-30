@@ -1,7 +1,7 @@
 ﻿using System;
 using Xamarin.Forms;
 
-namespace HekoTestSR
+namespace hekoTestSR
 {
     public partial class MainPage : ContentPage
     {
@@ -37,8 +37,17 @@ namespace HekoTestSR
             {
                 var dialer = DependencyService.Get<hekoTestSR.IDialer>();
                 if (dialer != null)
+                {
+                    App.PhoneNumbers.Add(translatedNumber);
+                    callHistoryButton.IsEnabled = true;
                     dialer.Dial(translatedNumber);
+                }
             }
+        }
+
+        async void OnCallHistory(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new CallHistoryPage());
         }
     }
 }
