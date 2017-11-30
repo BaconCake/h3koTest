@@ -1,11 +1,8 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.IO;
-using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.ProjectOxford.Vision;
 using Microsoft.ProjectOxford.Vision.Contract;
-using Plugin.Connectivity;
 using Plugin.Media;
 using Xamarin.Forms;
 
@@ -19,7 +16,7 @@ namespace hekoTestSR
         public ImagePage()
         {
             InitializeComponent();
-            this.visionClient = new VisionServiceClient("9e03011d348c4089a72353becd3516f3","https://westeu.api.cognitive.microsoft.com/vision/v1.0");
+            this.visionClient = new VisionServiceClient("9e03011d348c4089a72353becd3516f3","https://westcentralus.api.cognitive.microsoft.com/vision/v1.0");
         }
 
         async void OnPickImage(object sender, EventArgs e)
@@ -41,13 +38,9 @@ namespace hekoTestSR
             image.Source = ImageSource.FromStream(() =>
             {
                 var stream = file.GetStream();
-
+                file.Dispose();
                 return stream;
             });
-
-            var analyseResult = await AnalyzePicture(file.GetStream());
-            imageDescription.Text = analyseResult.Description.Captions[0].Text;
-            file.Dispose();
         }
 
         async void OnTakeImage(object sender, EventArgs e)
@@ -73,14 +66,9 @@ namespace hekoTestSR
             image.Source = ImageSource.FromStream(() =>
             {
                 var stream = file.GetStream();
-
+                file.Dispose();
                 return stream;
             });
-
-            var analyseResult = await AnalyzePicture(file.GetStream());
-            imageDescription.Text = analyseResult.Color.AccentColor;
-
-            file.Dispose();
         }
 
         async Task OnUploadImageAsync(object Sender, EventArgs e)
@@ -95,7 +83,7 @@ namespace hekoTestSR
                 return;
             image.Source = ImageSource.FromStream(() => file.GetStream());
             var analysisResult = await AnalyzePicture(file.GetStream());
-            imageDescription.Text = analysisResult.Color.AccentColor;
+            imageDescription.Text = analysisResult.Description.Captions[0].Text;
         }
 
         private async Task<AnalysisResult> AnalyzePicture(Stream imageStream)

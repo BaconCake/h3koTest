@@ -1,12 +1,12 @@
 ﻿<Properties StartupConfiguration="{FFED043B-A8FD-48C8-9718-163602005118}|Default">
   <MonoDevelop.Ide.Workbench ActiveDocument="trunk Status">
     <Files>
-      <File FileName="hekoTest-SR/MainPage.xaml" Line="15" Column="6" />
-      <File FileName="hekoTest-SR/ImagePage.xaml" Line="20" Column="39" />
-      <File FileName="hekoTest-SR/MainPage.xaml.cs" Line="50" Column="36" />
-      <File FileName="hekoTest-SR/ImagePage.xaml.cs" Line="19" Column="27" />
-      <File FileName="iOS/Main.cs" Line="18" Column="10" />
-      <File FileName="Droid/Properties/AndroidManifest.xml" Line="11" Column="12" />
+      <File FileName="hekoTest-SR/App.xaml.cs" Line="18" Column="10" />
+      <File FileName="hekoTest-SR/CallHistoryPage.xaml.cs" Line="12" Column="35" />
+      <File FileName="hekoTest-SR/ImagePage.xaml.cs" Line="105" Column="2" />
+      <File FileName="hekoTest-SR/MainPage.xaml.cs" Line="59" Column="10" />
+      <File FileName="hekoTest-SR/PhoneTranslator.cs" Line="47" Column="14" />
+      <File FileName="hekoTest-SR/SliderPage.xaml.cs" Line="43" Column="23" />
       <File FileName="trunk Status" />
     </Files>
   </MonoDevelop.Ide.Workbench>
