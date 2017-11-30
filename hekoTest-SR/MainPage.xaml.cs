@@ -49,5 +49,10 @@ namespace hekoTestSR
         {
             await Navigation.PushAsync(new CallHistoryPage());
         }
+
+        async void OnShowSlider(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new SliderPage());
+        }
     }
 }

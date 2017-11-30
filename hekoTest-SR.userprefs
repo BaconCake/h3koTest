@@ -1,8 +1,13 @@
 ﻿<Properties StartupConfiguration="{C2E28993-A67B-46FF-9A0C-230F4366969A}|Default">
   <MonoDevelop.Ide.Workbench ActiveDocument="trunk Status">
     <Files>
-      <File FileName="hekoTest-SR/MainPage.xaml" Line="17" Column="27" />
-      <File FileName="hekoTest-SR/MainPage.xaml.cs" Line="45" Column="14" />
+      <File FileName="hekoTest-SR/SliderPage.xaml.cs" Line="2" Column="1" />
+      <File FileName="hekoTest-SR/MainPage.xaml.cs" Line="55" Column="54" />
+      <File FileName="hekoTest-SR/CallHistoryPage.xaml.cs" Line="14" Column="6" />
+      <File FileName="hekoTest-SR/SliderPage.xaml" Line="21" Column="26" />
+      <File FileName="hekoTest-SR/CallHistoryPage.xaml" Line="12" Column="27" />
+      <File FileName="hekoTest-SR/MainPage.xaml" Line="21" Column="72" />
+      <File FileName="iOS/Main.cs" Line="11" Column="6" />
       <File FileName="trunk Status" />
     </Files>
   </MonoDevelop.Ide.Workbench>
